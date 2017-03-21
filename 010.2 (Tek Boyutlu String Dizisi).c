@@ -7,7 +7,7 @@ int main()
 	scanf("%s",&isim);					// scanf("%s",isim); olarak da yazılabilir. Not: scanf, boşluğa kadar olan metni alır.	
 	printf("%s \n",isim);
 	char isim2 [8] = {'A','B','C',' ','D','E','F'}; 	// Metnin sonunda gizli bir '\0' NULL karakteri olduğu için dizi 8 boyutludur.
-								// char isim2 [100] = {'A','B','C',' ','D','E','F'}; de yazılabilir.
+								// char isim2 [100] = {'A','B','C',' ','D','E','F'}; olarak da yazılabilir.
 	printf("%s \n",isim2);
 	
 	char isim3 [] = {'Z','i','d','a','n','e'};		// char isim3 [7] = {'Z','i','d','a','n','e'}; olarak da yazılabilir.
