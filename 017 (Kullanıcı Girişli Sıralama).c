@@ -13,7 +13,7 @@ main()
 	
 	for(i=0;i<5;i++)
 	{
-		for(j=0;j<5-i;j++)           /* "i" yerine "5-i" yazmak sýralamayý hýzlandýrýr */
+		for(j=0;j<5-i;j++)           /* "i" yerine "5-i" yazmak siralamayi hizlandirir */
 		{
 			if(dizi[j+1] < dizi[j])
 			{
