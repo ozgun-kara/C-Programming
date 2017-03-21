@@ -5,11 +5,11 @@ main()
 	int	dizi[]={78,11,8,22};
 	int t;
 	
-	for(int i=0;i<4;i++)				// Küçükten büyüðe sýralama	
+	for(int i=0;i<4;i++)				// KÃ¼Ã§Ã¼kten bÃ¼yÃ¼ge siralama	
 	{
 		for(int j=0;j<4;j++)
 		{
-			if(dizi[j+1] < dizi[j])			// Not: Büyükten kücüðe sýralama için: if(dizi[j] < dizi[j+1])
+			if(dizi[j+1] < dizi[j])			// Not: BÃ¼yÃ¼kten kÃ¼cÃ¼ge siralama iÃ§in: if(dizi[j] < dizi[j+1])
 			{
 				t=dizi[j];
 				dizi[j]=dizi[j+1];
