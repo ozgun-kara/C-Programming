@@ -4,7 +4,7 @@
 void ters_cevir(char dizi [])
 {
 	int uzunluk, gecici;
-	uzunluk = strlen(dizi);				//	Dizinin boyutu belirlendi.
+	uzunluk = strlen(dizi);				// Dizinin boyutu belirlendi.
 	
 	for (int i=0; i<uzunluk/2; i++)
 	{
