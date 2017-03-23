@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//	Asal sayı, 2'den kendisine kadar hiçbir sayıya tam bölünemeyen sayıdır.
+// NOT: Asal sayi, 2'den kendisine kadar hiÃ§bir sayiya tam bÃ¶lÃ¼nemeyen sayidir.
 
 int asal_mi (int sayi)
 {
@@ -8,7 +8,7 @@ int asal_mi (int sayi)
 	{
 		if (sayi%i==0)
 		{
-		return 0;			// Fonksiyon, return ü gördüğü anda fonksiyon sonlanır ve aşağıdaki kodları görmez.
+		return 0;			// Fonksiyon, return Ã¼ gÃ¶rdÃ¼gÃ¼ anda fonksiyon sonlanir ve asagidaki kodlari gÃ¶rmez.
 		}			
 	}
 	return 1;	
