@@ -4,7 +4,7 @@ void dizi_olustur(int dizi[],int boyut)
 {
 	for (int i=0; i <= boyut; i++)
 	{
-		dizi[i] = i;						// Fonksiyona gönderilen matris iþlendi ve elemanlara sahip oldu.
+		dizi[i] = i;			// Fonksiyona gÃ¶nderilen matris islendi ve elemanlara sahip oldu.
 	}		
 }
 
