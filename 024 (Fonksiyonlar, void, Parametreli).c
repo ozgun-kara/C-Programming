@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void kontrol (int sayii)	// Not: sayii değişkeni yerine sayi da yazılabilirdi. Fonksiyon içindeki 							
-{							// değişkenler, sadece fonksiyon içinde anlamlıdır.
+void kontrol (int sayii)	// Not: sayii deÄŸiÅŸkeni yerine sayi da yazÄ±labilirdi.  							
+{				// Fonksiyon iÃ§indeki deÄŸiÅŸkenler, sadece fonksiyon iÃ§inde anlamlÄ±dÄ±r.
 	if (sayii%2==0)
 	printf("%d sayisi cifttir\n",sayii);
 	else
