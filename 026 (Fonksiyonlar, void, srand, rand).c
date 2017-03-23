@@ -9,7 +9,7 @@ void mesaj()
 
 void zar_at()
 {
-	srand(time(NULL));			// Farklı değerlerin çıkması için.
+	srand(time(NULL));			// Farkli degerlerin Ã§ikmasi iÃ§in yazilir.
 	int deger = rand()%6 + 1;
 	printf("Rastgele atilan zar sonucu: %d\n",deger);	
 }
