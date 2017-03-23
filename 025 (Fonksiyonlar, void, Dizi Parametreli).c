@@ -13,5 +13,5 @@ void topla (int dizi [],int size)
 int main()
 {
 	int matris [] = {1,2,3,4,5,6};
-	topla(matris,6);					// topla(matris [],6); veya 	topla(matris [6],6); yazýlamaz.	
+	topla(matris,6);					// topla(matris [],6); veya topla(matris [6],6); yazilamaz!	
 }
