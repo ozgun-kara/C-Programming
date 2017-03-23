@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int i;						// main ve bütün fonksiyonlar dahil tüm kodu kapsar.
+int i;						// main ve bÃ¼tÃ¼n fonksiyonlar dahil tÃ¼m kodu kapsar.
 
 void dongu()
 {
@@ -14,7 +14,7 @@ int main()
 {
 	dongu();
 	printf("\n\n");
-	printf("i = %d",i);		// i en son 10 olup dongu fonksiyonundan çýktýðý için son deðeri 10 dur.		
+	printf("i = %d",i);		// i en son 10 olup dongu fonksiyonundan Ã§iktigi iÃ§in son degeri 10 dur.		
 }
 
 
