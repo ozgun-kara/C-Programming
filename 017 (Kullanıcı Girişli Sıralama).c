@@ -2,7 +2,7 @@
 
 main()
 {
-	int	dizi [5];
+	int dizi [5];
 	int i,j,t;
 	
 	for(i=0;i<5;i++)
