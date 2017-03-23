@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void matris_olustur(int dizi [][4],int size)		// (int dizi [][],int size, int size2) yazýlmaz. Dizinin ikinin boyutu
-{													//	belirtilerek, ikinci parametre olarak dizinin ilk boyutu alýnýr.
+void matris_olustur(int dizi [][4],int size)		// (int dizi [][],int size, int size2) yazilmaz. Dizinin ikinin boyutu
+{							// belirtilerek, ikinci parametre olarak dizinin ilk boyutu alinir.
 	for (int i=0; i<size; i++)
 	{
 		for (int j=0;j<4;j++)
