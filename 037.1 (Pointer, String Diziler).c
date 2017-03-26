@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-//	NOT: String dizilere, diğer dizilerden farklı olarak 
-//	son kutucuğa bilgisayar tarafından '\0' (null) karakteri eklenir. 
+// NOT: String dizilere, diÄŸer dizilerden farklÄ± olarak 
+// son kutucuÄŸa bilgisayar tarafÄ±ndan '\0' (null) karakteri eklenir. 
 
-int uzunluk_bul(char *p)		// Bu fonksiyona gönderilen dizi'nin başlangıç adresi p'ye gitti.
+int uzunluk_bul(char *p)		// Bu fonksiyona gÃ¶nderilen dizi'nin baÅŸlangÄ±Ã§ adresi p'ye gitti.
 {
 	int uzunluk = 0;
-	for	(int i=0; p[i] != '\0'; i++)		//	En son p[5] sağlanır. p[6] == '\0' olduğu için döngüden çıkar. 
+	for	(int i=0; p[i] != '\0'; i++)		// En son p[5] saÄŸlanÄ±r. p[6] == '\0' olduÄŸu iÃ§in dÃ¶ngÃ¼den Ã§Ä±kar. 
 	{
 		uzunluk++;	
 	}
