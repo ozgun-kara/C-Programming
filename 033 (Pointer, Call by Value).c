@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-// NOT: Call by Value işleminde pointer kullanılmadığı için
-// x ve y nin değerleri deger_degis fonksiyonuna parametre olarak gitti.
-// Buna rağmen x ve y nin adresleri ve değerleri RAM'de değişmedi. 
+// NOT: Call by Value iÅŸleminde pointer kullanÄ±lmadÄ±ÄŸÄ± iÃ§in
+// x ve y nin deÄŸerleri deger_degis fonksiyonuna parametre olarak gitti.
+// Buna raÄŸmen x ve y nin adresleri ve deÄŸerleri RAM'de deÄŸiÅŸmedi. 
 
 void deger_degis(int a, int b)
 {
@@ -11,7 +11,7 @@ void deger_degis(int a, int b)
 	a = b;
 	b = gecici;
 	printf("a = %d , b = %d \n",a,b);	// NOT: Buraya printf("x = %d , y = %d \n",a,b); yazmak, x ve y'nin 
-}										// değerleri değiştiği anlamına gelmez!
+}						// deÄŸerleri deÄŸiÅŸtiÄŸi anlamÄ±na gelmez!
 
 int main()
 {
@@ -19,6 +19,6 @@ int main()
 	x=5;
 	y=10;
 	deger_degis(x,y);
-	// Yukarıdaki fonksiyon çağırılıktan sonra RAM'de a ve b değişkenleri yok oluyor.
+	// YukarÄ±daki fonksiyon Ã§aÄŸÄ±rÄ±lÄ±ktan sonra RAM'de a ve b deÄŸiÅŸkenleri yok oluyor.
 	printf("x = %d , y = %d \n",x,y);	
 }
