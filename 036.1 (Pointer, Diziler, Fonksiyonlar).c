@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int max_bul(int p[0], int size)		// p[0] yerine *p yazýlsa da olabilir.
+int max_bul(int p[0], int size)		// p[0] yerine *p yazilsa da olabilir.
 {
 	int max = p[0];
 	for (int i=0; i<size; i++)
@@ -13,11 +13,11 @@ int max_bul(int p[0], int size)		// p[0] yerine *p yazýlsa da olabilir.
 	return max;
 }
 
-//	NOT: Aþaðýdaki fonksiyon, yukarýdakinin aynýsýdýr. Pointer gösterimleri farklýdýr sadece.
+// NOT: Asagidaki fonksiyon, yukaridakinin aynisidir. Pointer gÃ¶sterimleri farklidir sadece.
 
 /*
 
-int max_bul(int *p, int size)	// pointer görevli p'nin içine sayilar dizisinin baþlangýç adresi gitti.
+int max_bul(int *p, int size)	// pointer gÃ¶revli p'nin iÃ§ine sayilar dizisinin baÃ¾langiÃ§ adresi gitti.
 {
 	int max = *p;
 	for (int i=0; i<size; i++)
