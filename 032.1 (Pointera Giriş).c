@@ -7,7 +7,7 @@ int main()
 	ip = &i;
 	printf("%p \n",ip);
 	printf("%p \n",jp);
-	jp = ip;			//	i'nin adresini tutan ip, jp'ye eşitlendi. Yani jp artık i'nin adresini tutuyor ip gibi.
+	jp = ip;			// i'nin adresini tutan ip, jp'ye eÅŸitlendi. Yani jp artÄ±k i'nin adresini tutuyor ip gibi.
 	printf("%p \n",ip);
 	printf("%p \n",jp);
 	printf("%d \n",*jp);
