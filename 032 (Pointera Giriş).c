@@ -21,7 +21,7 @@ int main()
 	
 	printf("%p adresindeki int in degeri = %d \n",ap,*ap);
 	printf("%p adresindeki float in degeri = %.2f \n",bp,*bp);
-	printf("%p adresindeki double in degeri = %.2f \n",cp,*cp);		// %lf de yazılabilir. lf, double ın format belirleyicisidir.
+	printf("%p adresindeki double in degeri = %.2f \n",cp,*cp);		// %lf de yazilabilir. lf, double in format belirleyicisidir.
 	printf("%p adresindeki char in degeri = %c \n",dp,*dp);
 	printf("%p adresindeki int in degeri = %d \n",dizi,*dizip);
 }
