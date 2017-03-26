@@ -16,5 +16,5 @@ int main()
 	int matris2 [] = {5,6,7,8};
 	char * p;
 	p = dizitopla(matris1,matris2,4);
-	printf("%d %d %d %d", *p, *(p+1), *(p+2), *(p+3));	//	printf("%d %d %d %d", p[0], p[1], p[2], p[3]); kodu da yazýlabilir.
+	printf("%d %d %d %d", *p, *(p+1), *(p+2), *(p+3));	// printf("%d %d %d %d", p[0], p[1], p[2], p[3]); kodu da yazilabilir.
 }
