@@ -4,13 +4,13 @@ int main()
 {
 	int x=5;
 	printf("%d \n",x);	
-	printf("%d \n",*&x);			// * ve & birbirini nötrler ve sadece x ekrana yazılır.
+	printf("%d \n",*&x);		// * ve & birbirini nÃ¶trler ve sadece x ekrana yazÄ±lÄ±r.
 	
-	int * x_yer;					// int pointer tipinde bir x_yer değişkeni yarattık.
-	x_yer = &x;						// x_yer değişkeninde x'in adresi saklandı. 
+	int * x_yer;			// int pointer tipinde bir x_yer deÄŸiÅŸkeni yarattÄ±k.
+	x_yer = &x;			// x_yer deÄŸiÅŸkeninde x'in adresi saklandÄ±. 
 
-	printf("%d \n",*x_yer); 		// x_yer değişkende &x (x'in adresi) vardı. *x_yer koduyla da 
-									// o adresteki kutucuğun içindeki değeri, yani x'in değerini yazdırdık.		
+	printf("%d \n",*x_yer); 	// x_yer deÄŸiÅŸkende &x (x'in adresi) vardÄ±. *x_yer koduyla da 
+					// o adresteki kutucuÄŸun iÃ§indeki deÄŸeri, yani x'in deÄŸerini yazdÄ±rdÄ±k.		
 									
-	printf("%p \n",x_yer); 			// x'in adresi olan x_yer'in RAM'deki numarasını yazdırdı.				
+	printf("%p \n",x_yer); 		// x'in adresi olan x_yer'in RAM'deki numarasÄ±nÄ± yazdÄ±rdÄ±.				
 }
