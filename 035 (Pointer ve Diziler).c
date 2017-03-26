@@ -4,9 +4,9 @@ int main()
 {
 	int dizi [] = {5,4,8,9,11};
 	int * ptr;
-	ptr = &dizi[0];			//	ptr = dizi; de yazılabilirdi. ptr'ye dizi'nin 0. yani ilk indisinin yerini atadık.
-	printf("%p \n",&dizi);	//	printf("%p \n",&dizi[0]); da yazılabilirdi.
-	printf("%p \n",&ptr);	//  İçinde dizi'nin başlangıç adresini tutan ptr'nin adresi.	
+	ptr = &dizi[0];			// ptr = dizi; de yazÄ±labilirdi. ptr'ye dizi'nin 0. yani ilk indisinin yerini atadÄ±k.
+	printf("%p \n",&dizi);	// printf("%p \n",&dizi[0]); da yazÄ±labilirdi.
+	printf("%p \n",&ptr);	// Ä°Ã§inde dizi'nin baÅŸlangÄ±Ã§ adresini tutan ptr'nin adresi.	
 	printf("Dizinin 1. elemani = %d, adresi = %p \n",*ptr,ptr);
 	printf("Dizinin 2. elemani = %d, adresi = %p \n",*(ptr+1),ptr+1);
 	printf("Dizinin 3. elemani = %d, adresi = %p \n",*(ptr+2),ptr+2);
