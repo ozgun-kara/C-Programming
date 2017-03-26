@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// NOT: Bundan sonraki örnekte bu iþlemleri pointer ile yapacaðýz.
+// NOT: Bundan sonraki Ã¶rnekte bu islemleri pointer ile yapacagiz.
 
 int max_bul(int dizi [], int size)
 {
