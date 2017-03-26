@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-char * yeni_dizi (char * ptr, int indeks)		// Bu fonksiyon, char içeriği olan bir adres döndürecek.
+char * yeni_dizi (char * ptr, int indeks)		// Bu fonksiyon, char iÃ§eriÄŸi olan bir adres dÃ¶ndÃ¼recek.
 {
 	int uzunluk = strlen(ptr);
 	
 	if(uzunluk < indeks)
 	{
-		return NULL;			// uzunluk < indeks durumunda fonksiyonun RAM'de alakasız yerin adresini 
-	}							// döndürmemesi için NULL dönüşü yapıldı. return '\0'; da yazılabilir.
+		return NULL;			// uzunluk < indeks durumunda fonksiyonun RAM'de alakasÄ±z yerin adresini 
+	}					// dÃ¶ndÃ¼rmemesi iÃ§in NULL dÃ¶nÃ¼ÅŸÃ¼ yapÄ±ldÄ±. return '\0'; da yazÄ±labilir.
 	else
 	{
 		return ptr+indeks;
@@ -19,9 +19,9 @@ int main()
 {
 	char isim [] = "Zidane";
 	printf("Fonksiyonsuz yazdirdik: %s \n",isim+2);
-	char * p;					// char içerikli bir başlangıç adresi alacak şekilde pointer p oluşturduk.
-	p = yeni_dizi(isim,2);		// Fonksiyondan dönen (isim+2)'nin başlangıç adresi, 
-								// pointer olan p'ye atandı. Yani p, isim dizinin 2. indeksini gösteriyor.
+	char * p;						// char iÃ§erikli bir baÅŸlangÄ±Ã§ adresi alacak ÅŸekilde pointer p oluÅŸturduk.
+	p = yeni_dizi(isim,2);					// Fonksiyondan dÃ¶nen (isim+2)'nin baÅŸlangÄ±Ã§ adresi, 
+								// pointer olan p'ye atandÄ±. Yani p, isim dizinin 2. indeksini gÃ¶steriyor.
 	if(p==NULL)
 	{
 		printf("Pointer NULL");
