@@ -5,9 +5,9 @@ int main()
 	int i=5, j=10;
 	int * ip, * jp;
 	ip = &i;
-	jp = ip;			//	i'nin adresini tutan ip, jp'ye eşitlendi. Yani jp artık i'nin adresini tutuyor ip gibi.
-	++(*jp);			// i değeri 1 arttı. Bu ifade ++(*ip) ve ++i'ye eşittir.
+	jp = ip;			// i'nin adresini tutan ip, jp'ye eÅŸitlendi. Yani jp artÄ±k i'nin adresini tutuyor ip gibi.
+	++(*jp);			// i deÄŸeri 1 arttÄ±. Bu ifade ++(*ip) ve ++i'ye eÅŸittir.
 	printf("i = %d, j = %d \n",i,j);
 	printf("ip'nin adresindeki deger = %d, jp'nin adresindeki deger j = %d \n",*ip,*jp);
-	//NOT: Bütün bu işlemlere rağmen i ve j nin adresleri baştan beri farklıdır ve değişmedi.
+	//NOT: BÃ¼tÃ¼n bu iÅŸlemlere raÄŸmen i ve j nin adresleri baÅŸtan beri farklÄ±dÄ±r ve deÄŸiÅŸmedi.
 }
