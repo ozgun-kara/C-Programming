@@ -8,13 +8,13 @@ struct Futbolcu
 	int yas;
 };
 
-struct Futbolcu * Futbolcu_Uret (struct Futbolcu * f)	// 	Adresi girilen struct'ýn Call by Reference yöntemiyle verilerini doldurup 
-{														//	geriye Futbolcu tipinde struct iþaretçi döndüren fonksiyon tanýmlandý.
+struct Futbolcu * Futbolcu_Uret (struct Futbolcu * f)	// 	Adresi girilen struct'Ä±n Call by Reference yÃ¶ntemiyle verilerini doldurup 
+{							//	geriye Futbolcu tipinde struct iÅŸaretÃ§i dÃ¶ndÃ¼ren fonksiyon tanÄ±mlandÄ±.
 	strcpy(f -> ad, "Isimsiz");										
 	strcpy(f -> takim, "Belirtilmemis");
 	f -> yas = 18;	
 	
-	// 	NOT: Yukarýdaki veri giriþleri yerine aþaðýdaki kodlar da yazýlabilirdi
+	// 	NOT: YukarÄ±daki veri giriÅŸleri yerine aÅŸaÄŸÄ±daki kodlar da yazÄ±labilirdi
 	//			struct Futbolcu f2 = {"Isimsiz","Belirtilmemis",18};
 	//			*f = f2;
 	
@@ -30,7 +30,7 @@ int main()
 {
 	struct Futbolcu F1 = {"Lampard","CHELSEA",30};
 	Futbolcu_Bilgi(&F1);
-	struct Futbolcu F2;		//	NOT: struct Futbolcu F2 = Futbolcu_Uret(&F2); kodu çalýþmaz!
+	struct Futbolcu F2;		//	NOT: struct Futbolcu F2 = Futbolcu_Uret(&F2); kodu Ã§alÄ±ÅŸmaz!
 	Futbolcu_Uret(&F2);
 	Futbolcu_Bilgi(&F2);
 }
