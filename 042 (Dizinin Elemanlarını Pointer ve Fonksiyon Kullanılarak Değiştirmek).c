@@ -9,8 +9,8 @@ void artir (int dizi [], int boyut, int artis)
 	{
 		*ptr = *ptr + artis;
 		printf("%d ", *ptr);
-		ptr = ptr + 1;		//	dizi'nin başlangıç adresini tutan ptr pointerı 1 artarak
-							//	memory'de 4 byte ilerideki adresi göstermeye başladı.
+		ptr = ptr + 1;		//	dizi'nin baslangiÃ§ adresini tutan ptr pointeri 1 artarak
+					//	memory'de 4 byte ilerideki adresi gÃ¶stermeye basladi.
 	}
 }
 
