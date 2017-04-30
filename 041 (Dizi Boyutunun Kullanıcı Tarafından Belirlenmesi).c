@@ -14,9 +14,9 @@ int main()
 	scanf("%d", &boyut);
 	int * dizi;
 	dizi = dizi_olustur(dizi, boyut);	// Bir adresi gösteren dizi pointeri önceden 4 byte'lik (tek integer'lik) 
-										// yer tutarken artik boyut x (4 bytle)'lik yer tutuyor.  
+						// yer tutarken artik boyut x (4 bytle)'lik yer tutuyor.  
 	
-	for (i=0; i<boyut; i++)				// dizi'nin indekslerine boyutu kadar eleman atiliyor.
+	for (i=0; i<boyut; i++)			// dizi'nin indekslerine boyutu kadar eleman atiliyor.
 		dizi[i] = i;
 	for (i=0; i<boyut; i++)		
 		printf("%d ", dizi[i]);
