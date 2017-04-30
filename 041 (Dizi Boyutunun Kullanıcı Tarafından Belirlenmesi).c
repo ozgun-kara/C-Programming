@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>		// malloc fonksiyonunu kullanacaðýz.
+#include <stdlib.h>		// malloc fonksiyonunu kullanacagiz.
 
-int * dizi_olustur (int * ptr, int size)		// int pointer ve boyut alýp int pointer döndüren fonksiyon.
+int * dizi_olustur (int * ptr, int size)		// int pointer ve boyut alÃ½p int pointer dÃ¶ndÃ¼ren fonksiyon.
 {
-	ptr = (int *)malloc(sizeof(int) * size);	// Burada ptr'ye size x (4 byte) yer açýlýyýor. Not: Ýkinci * iþareti çarpmadýr.
+	ptr = (int *)malloc(sizeof(int) * size);	// Burada ptr'ye size x (4 byte) yer aciliyor. Not: Ikinci * isareti Ã§arpmadir.
 	return ptr;
 }
 
@@ -13,10 +13,10 @@ int main()
 	printf("Dizi boyutunu belirleyiniz: ");
 	scanf("%d", &boyut);
 	int * dizi;
-	dizi = dizi_olustur(dizi, boyut);	// Bir adresi gösteren dizi pointerý önceden 4 byte'lýk (tek integer'lýk) 
-										// yer tutarken artýk boyut x (4 bytle)'lýk yer tutuyor.  
+	dizi = dizi_olustur(dizi, boyut);	// Bir adresi gÃ¶steren dizi pointeri Ã¶nceden 4 byte'lik (tek integer'lik) 
+										// yer tutarken artik boyut x (4 bytle)'lik yer tutuyor.  
 	
-	for (i=0; i<boyut; i++)				// dizi'nin indekslerine boyutu kadar eleman atýlýyor.
+	for (i=0; i<boyut; i++)				// dizi'nin indekslerine boyutu kadar eleman atiliyor.
 		dizi[i] = i;
 	for (i=0; i<boyut; i++)		
 		printf("%d ", dizi[i]);
