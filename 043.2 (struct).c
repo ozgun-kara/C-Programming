@@ -28,7 +28,7 @@ int main()
 	ogr2.sinif=2;
 	ogr2.ortalama=2.50;
 	
-	printf("Ad:	%s\n",ogr1.ad);				//	printf("Ad:	%s\n",ogr1.ad[15]); yazýlamaz. 
+	printf("Ad:	%s\n",ogr1.ad);				//	printf("Ad:	%s\n",ogr1.ad[15]); yazilamaz. 
 	printf("Soyad:	%s\n",ogr1.soyad);
 	printf("Bolum:	%s\n",ogr1.bolum);
 	printf("Numara:	%d\n",ogr1.numara);
