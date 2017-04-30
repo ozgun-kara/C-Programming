@@ -12,7 +12,7 @@ struct ogrenci
 int main()
 {
 	struct ogrenci ogr1[3] = {{"Ali","Kamu Yonetimi",3,2.25},{"Cem","Iktisat",2,3.10},{"Mert","Gida Muh.",1,2.80}};	
-	//	NOT: Yukarýda ogrenci yapýsýnda 3 adet struct üretildi. Bunlar ogr1 struct dizisinde tutuluyor.			
+	//	NOT: Yukarida ogrenci yapisinda 3 adet struct Ã¼retildi. Bunlar ogr1 struct dizisinde tutuluyor.			
 	for (int i=0;i<3;i++)
 	{
 		printf("Ad:	%s\n",ogr1[i].ad);
