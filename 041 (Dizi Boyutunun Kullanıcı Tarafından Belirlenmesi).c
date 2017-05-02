@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>		// malloc fonksiyonunu kullanacagiz.
 
-int * dizi_olustur (int * ptr, int size)		// int pointer ve boyut alýp int pointer döndüren fonksiyon.
+int * dizi_olustur (int * ptr, int size)		// int pointer ve boyut alip int pointer döndüren fonksiyon.
 {
 	ptr = (int *)malloc(sizeof(int) * size);	// Burada ptr'ye size x (4 byte) yer aciliyor. Not: Ikinci * isareti çarpmadir.
 	return ptr;
